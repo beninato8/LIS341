@@ -1,0 +1,210 @@
+html {
+    background-color: #36393F;
+    color: #DCDDDE;
+    font-size: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"
+}
+
+.links {
+    padding-left: 0;
+    list-style: none;
+    margin: auto;
+    width: 40%;
+    margin-top: 20%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: #252525;
+    border-radius: 1em;
+    font-size: 2em;
+}
+
+#link1 {
+    margin: 10%;
+    padding: 10%;
+    background-color: #9A6EFF;
+    border-radius: .5rem;
+    transition: 0.5s ease;
+}
+
+#link2 {
+    padding: 10%;
+    margin: 10%;
+    background-color: #146A8F;
+    border-radius: .5rem;
+    transition: 0.5s ease;
+}
+
+#link3 {
+    padding: 10%;
+    margin: 10%;
+    background-color: #CC6452;
+    border-radius: .5rem;
+    transition: 0.5s ease;
+}
+
+#link1:hover {
+    font-size: 3rem;
+}
+
+#link2:hover {
+    font-size: 3rem;
+}
+
+#link3:hover {
+    font-size: 3rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    margin-top: 2em;
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+dl {
+    background-color: #101010;
+    padding-left: 2em;
+    list-style: none;
+    margin: auto;
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+#particles-top {
+    padding-left: 0;
+    list-style: none;
+    font-size: 2em;
+    text-align: center;
+    background-color: #9A6EFF;
+}
+
+.about {
+    font-family: "Times New Roman",serif;
+    margin: auto;
+    text-align: center;
+}
+
+.about img {
+    width: 40em;
+}
+
+.about a {
+    text-decoration: underline;
+}
+
+nav {
+  display: none;
+  margin-top: 3em;
+  position: fixed;
+  display: none;
+  font-size: 2em;
+}
+
+nav a {
+  display: inline-flex;
+}
+
+.hamburger {
+  display: inline-block;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.icon1 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  border-radius: 5px;
+}
+
+.icon2 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  border-radius: 5px;
+}
+
+.icon3 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  border-radius: 5px;
+}
+
+#bubble-top {
+    padding-left: 0;
+    list-style: none;
+    font-size: 2em;
+    text-align: center;
+    background-color: #146A8F;
+}
+
+#about-top {
+    padding-left: 0;
+    list-style: none;
+    font-size: 2em;
+    text-align: center;
+    background-color: #CC6452;
+}
+
+#home-top {
+    padding-left: 0;
+    list-style: none;
+    font-size: 2em;
+    text-align: center;
+    background-color: #3EB489;
+}
+
+#letters {
+    font-size: 4em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#letters-div {
+    margin: auto;
+    width: 50%;
+}
+
+td {
+    width: 2em;
+    height: 2em;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1000000;
+}
