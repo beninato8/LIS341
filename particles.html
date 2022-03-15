@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Particles</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <canvas class="background"></canvas>
+
+
+        <ul id="particles-top">
+            <li>
+                Particles
+            </li>
+        </ul>
+
+        <nav id='nav'>
+            <a href="index.html">Home</a>
+            <p>
+            <a href="bubble.html">Bubble Wrap</a>
+            <p>
+            <a href="about.html">About</a>
+        </nav>
+
+        <div class="hamburger" id="hamburger">
+            <div class="icon1"></div>
+            <div class="icon2"></div>
+            <div class="icon3"></div>
+        </div>
+        <script src="js/particles.js"></script>
+        <script defer src="js/nav.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+              Particles.init({
+                selector: '.background',
+                color: ['#9A6EFF', '#146A8F', '#CC6452'],
+                connectParticles: true,
+                sizeVariations: 10,
+                maxParticles: 200
+              });
+            }
+        </script>
+    </body>
+</html>
